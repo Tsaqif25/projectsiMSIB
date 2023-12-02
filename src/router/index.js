@@ -7,8 +7,16 @@ const router = createRouter({
     {
       path: '/',
       name: 'LoginVue',
+
+  
       // component: HomeView
     },
+    {
+      path: '/HistoryVue',
+      name: 'HistoryVue',
+    }
+    
+    ,
 
   ]
 })
